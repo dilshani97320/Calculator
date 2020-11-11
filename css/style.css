@@ -1,0 +1,82 @@
+body{
+	font-family: sans-serif;
+	background-image: url("../html/office5.jpg");
+	background-size: cover;
+	
+
+
+}
+h1{
+	text-align: center;
+}
+#calculator{
+	width: 300px;
+	height:520px;
+	background-color: #EEE8AA;
+	margin: 0 auto;
+	top: 20px;
+	position: relative;
+	padding: 50px;
+	border-radius: 5px;
+	box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2),0 8px 25px 0 rgba(0,0,0,19);
+
+}
+#result{
+	height:120px;
+}
+#keyboard{
+	height: 400px;
+}
+#history{
+	text-align: right;
+	height: 29px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 15px;
+
+}
+
+#output{
+text-align: right;
+height: 60px;
+margin: 10px 20px;
+font-size: 30px;
+	}
+#keyboard{
+	height: 400px;
+}
+.operator,.number,.empty{
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+	float: left;
+	border-radius: 50px;
+	border-width: 0;
+	font-size: 20px;
+}.number,.empty{
+	background-color: #EEE8AA; 
+}
+.number,.operator{
+	cursor: pointer;
+}
+.operator:focus, .number:focus,.empty:focus{
+	outline: 0;
+}
+.number:hover{
+	background-color:#DCDCDC;
+}
+button:nth-child(4){
+	background-color: #A52A2A;
+}
+button:nth-child(8){
+	background-color: #DAA520;
+}
+button:nth-child(12){
+	background-color: #BC8F8F;
+}
+button:nth-child(16){
+	background-color:#00BFFF;
+}
+button:nth-child(20){
+	background-color:#32CD32;
+}
